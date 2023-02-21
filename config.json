@@ -21,23 +21,23 @@
                         "dest":9999
                     },
                     {
-                        "path":"/uuid-vl",
+                        "path":"/uuid-vless",
                         "dest":20000
                     },
                     {
-                        "path":"/uuid-vm",
+                        "path":"/uuid-vmess",
                         "dest":10000
                     },
                     {
-                        "path":"/uuid-tr",
+                        "path":"/uuid-trojan",
                         "dest":30000
                     },
                     {
-                        "path":"/uuid-ss",
+                        "path":"/uuid-shadowsocks",
                         "dest":40000
                     },
                     {
-                        "path":"/uuid-so",
+                        "path":"/uuid-socks",
                         "dest":50000
                     }
                 ]
@@ -81,11 +81,11 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-vl"
+                    "path":"/uuid-vless"
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -109,11 +109,11 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-vm"
+                    "path":"/uuid-vmess"
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -137,11 +137,11 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-tr"
+                    "path":"/uuid-trojan"
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -166,11 +166,11 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-ss"
+                    "path":"/uuid-shadowsocks"
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -195,11 +195,11 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-so"
+                    "path":"/uuid-socks"
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
